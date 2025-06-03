@@ -1,0 +1,49 @@
+{
+  "window": {
+    "width": 1200,
+    "height": 800,
+    "min_width": 800,
+    "min_height": 600
+  },
+  "scanner": {
+    "default_directory": ".",
+    "auto_scan_on_startup": true,
+    "supported_extensions": [
+      ".pickle.blosc",
+      ".pickle",
+      ".h5",
+      ".hdf5",
+      ".parquet",
+      ".csv"
+    ],
+    "scan_subdirectories": true,
+    "max_scan_depth": 3
+  },
+  "visualization": {
+    "default_chart_type": "candlestick",
+    "default_timeframe": "1w",
+    "max_data_points": 10000,
+    "chart_theme": "plotly_white",
+    "show_volume": true,
+    "show_indicators": true
+  },
+  "data": {
+    "cache_enabled": true,
+    "cache_size_mb": 500,
+    "auto_detect_metadata": true,
+    "preferred_data_format": "vbt"
+  },
+  "ui": {
+    "theme": "clam",
+    "font_family": "Arial",
+    "font_size": 10,
+    "show_tooltips": true,
+    "auto_refresh": true
+  },
+  "performance": {
+    "max_memory_usage_mb": 2048,
+    "enable_multiprocessing": true,
+    "chunk_size": 10000,
+    "lazy_loading": true
+  }
+}

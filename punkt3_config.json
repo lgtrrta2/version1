@@ -1,0 +1,18 @@
+{
+  "PATHS": {
+    "punkt2_dir": "C:/Users/d/Desktop/trae programier projecte/vectorbt.pro-main/work/temp/data/punkt1/data/punkt2",
+    "punkt3_dir": "data/punkt3",
+    "backup_dir": "data/backups",
+    "export_dir": "exports"
+  },
+  "DEFAULTS": {
+    "timeframe_mode": "single",
+    "visualization_mode": "Interaktive Charts mit Indikatoren",
+    "visualization_period": "1 Woche (2016 Kerzen)",
+    "save_punkt4": true,
+    "save_backup": true,
+    "save_charts": false,
+    "show_summary": true,
+    "multi_indicator_mode": "same"
+  }
+}
